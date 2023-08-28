@@ -1,0 +1,17 @@
+{
+  "name": "w2d1",
+  "version": "1.0.0",
+  "description": "W2D1 Lecture on testing :D",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "test-but-better": "mocha --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0"
+  }
+}

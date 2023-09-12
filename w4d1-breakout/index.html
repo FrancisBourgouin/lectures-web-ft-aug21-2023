@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    li{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      background:#BADA55;
+      /* gap:50px; */
+      margin:50px;
+      padding:50px;
+    }
+    li:nth-of-type(2n){
+      flex-direction: column;
+    }
+    li p {
+      max-width:600px;
+    }
+
+    .logos{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width:800px;
+      height:800px
+      /* flex-wrap: wrap; */
+
+
+    }
+    .logos div{
+      background-color: #b0b;
+      /* height: 300px; */
+
+      width:100%;
+      flex-grow: 1;
+      transition: all 300ms ease-out;
+    }
+    .logos div:nth-of-type(2n){
+      background-color: #c0ffee;
+    }
+    .logos div:hover{
+      flex-grow: 2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Super webpage of destiny!</h1>
+  </header>
+  <main>
+    <section class="logos">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <!-- <img src="https://placekitten.com/g/300/100" alt="">
+      <img src="https://placekitten.com/g/300/150" alt="">
+      <img src="https://placekitten.com/g/200/150" alt="">
+      <img src="https://placekitten.com/g/50/150" alt="">
+      <img src="https://placekitten.com/g/100/200" alt=""> -->
+    </section>
+    <section>
+      <h1>All about potatoes</h1>
+
+      <h2>History</h2>
+
+      <h2>Regions of potato</h2>
+    </section>
+
+    <ul>
+      <li>
+        <img src="https://placekitten.com/g/600/400" alt="kitten">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cum quisquam libero, repudiandae accusamus maiores nihil praesentium dolorum qui at. Exercitationem, illo optio! Facere ea laborum qui tempora, totam dolores!</p>
+      </li>
+      <li>
+        <img src="https://placekitten.com/g/600/400" alt="kitten">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cum quisquam libero, repudiandae accusamus maiores nihil praesentium dolorum qui at. Exercitationem, illo optio! Facere ea laborum qui tempora, totam dolores!</p>
+      </li>
+      <li>
+        <img src="https://placekitten.com/g/600/400" alt="kitten">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cum quisquam libero, repudiandae accusamus maiores nihil praesentium dolorum qui at. Exercitationem, illo optio! Facere ea laborum qui tempora, totam dolores!</p>
+      </li>
+      <li>
+        <img src="https://placekitten.com/g/600/400" alt="kitten">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cum quisquam libero, repudiandae accusamus maiores nihil praesentium dolorum qui at. Exercitationem, illo optio! Facere ea laborum qui tempora, totam dolores!</p>
+      </li>
+    </ul>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>

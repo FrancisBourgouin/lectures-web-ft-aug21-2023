@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jokes!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <h1>NEW JOKE :D</h1>
+    </header>
+    <main>
+      <form action="/jokes" method="POST">
+        <input type="text" name="question" placeholder="Enter the question" />
+        <input type="text" name="answer" placeholder="Enter the answer" />
+        <input type="number" name="rating" placeholder="Enter the rating" />
+        <input type="number" name="authorId" placeholder="Enter the authorId" />
+        <button>Add a new joke!</button>
+      </form>
+      <a href="/jokes">Go back to all jokes</a>
+    </main>
+  </body>
+</html>

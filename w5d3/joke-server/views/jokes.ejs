@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jokes!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <h1>ALL THE JOKES :D</h1>
+    </header>
+    <main>
+      <ul>
+        <% for(const joke of jokes){ %>
+        <li>
+          <p><a href="/jokes/<%= joke.id %>">Joke #<%= joke.id %></a></p>
+          <p>Q: <%= joke.question %></p>
+          <p>A: <%= joke.answer %></p>
+          <p>By: <%= joke.name %></p>
+        </li>
+        <% } %>
+      </ul>
+    </main>
+  </body>
+</html>

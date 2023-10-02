@@ -1,0 +1,34 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+body {
+  color: #b0b;
+}
+
+header {
+  padding: 2em;
+  background-color: #c0ffee;
+
+  text-align: center;
+}
+
+main section > h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2em;
+}
+
+li {
+  width: 45vw;
+  text-align: center;
+  border: 1em solid #bada55;
+}

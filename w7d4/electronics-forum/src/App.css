@@ -1,0 +1,64 @@
+.TopicListItem {
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  border: 0.2em solid white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopicListItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.TopicListItem h1 {
+  font-size: 1.5em;
+}
+
+.TopicList ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.TopicList ul li:last-of-type {
+  margin-right: auto;
+}
+
+.Header {
+  padding: 2em;
+  text-align: center;
+  color: #d00d1e;
+  background-color: #bada55;
+}
+
+.Header h1 {
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.ReplyForm {
+  font-size: 2em;
+}
+.ReplyForm input,
+.ReplyForm button {
+  font-size: 1em;
+  padding: 1em 1.5em;
+}
+
+.ReplyListItem {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  padding: 1em;
+}
+
+.ReplyListItem:nth-of-type(2n) {
+  background-color: #bada55;
+  color: black;
+}

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+
+  padding: 2em;
+  background-color: #b0b;
+
+  h1 {
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.QuizForm,
+.QuestionForm {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #bada55;
+  color: black;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      width: 500px;
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+    div {
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      width: 240px;
+      padding: 1em;
+    }
+  }
+}
+
+.CurrentScore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1em 3em;
+  margin: 0 auto;
+
+  border: 0.5em solid white;
+
+  &.good {
+    border-color: #bada55;
+  }
+  &.bad {
+    border-color: #d00d1e;
+  }
+}

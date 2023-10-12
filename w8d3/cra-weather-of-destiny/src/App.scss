@@ -1,0 +1,32 @@
+body {
+  font-size: 24px;
+}
+
+.Header {
+  background-color: #b0b;
+  padding: 2em;
+  text-align: center;
+}
+
+.CurrentWeather {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.CityForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    input {
+      font-size: 1em;
+      padding: 1em 1.25em;
+    }
+    button {
+      margin-left: 0.5em;
+      font-size: 1em;
+      padding: 1em 1.25em;
+    }
+  }
+}

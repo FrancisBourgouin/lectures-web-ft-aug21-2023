@@ -1,0 +1,23 @@
+<tr id="<%= dom_id url %>">
+  <td>
+    <a target="_blank" href="/u/<%= url.id %>"><%= url.short_url %></a>
+    
+  </td>
+
+  <td>
+    <%= url.long_url %>
+  </td>
+
+  <td>
+    <%= url.description %>
+  </td>
+
+  <td>
+    <% if current_user %>
+    <a href="/urls/<%= url.id %>">Edit</a>
+    <% else %>
+    <a href="#">Please login to edit</a>
+    <% end %>
+  </td>
+
+</tr>
